@@ -1,6 +1,7 @@
 package br.com.eduardo.cadastro.main;
 
-import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 import br.com.eduardo.cadastro.CadastroPessoal;
@@ -30,11 +31,11 @@ public class Main {
 			
 			cadastro.setCpfUsuario(teclado.next());
 			
-//			List<CadastroPessoal> nome = new ArrayList<>();
-//			nome.add(cadastro);
-//
-//			List<CadastroPessoal> numeroCpf = new ArrayList<>();
-//			numeroCpf.add(cadastro);
+			List<CadastroPessoal> nome = new ArrayList<>();
+			nome.add(cadastro);
+
+			List<CadastroPessoal> numeroCpf = new ArrayList<>();
+			numeroCpf.add(cadastro);
 
 			System.out.println("User name " + cadastro.getNomeUsuario() + " successfully registered");
 			System.out.println("User id number " + cadastro.getCpfUsuario() + " registered successfully ");
