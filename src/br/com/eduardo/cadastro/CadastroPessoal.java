@@ -41,10 +41,7 @@ public class CadastroPessoal extends Cadastro {
 	}
 
 
-//	public static boolean isEmpty() {
-//		// TODO Auto-generated method stub
-//		return false;
-//	}
+
 	
 	
 
